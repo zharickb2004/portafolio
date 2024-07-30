@@ -1,0 +1,45 @@
+import React from 'react'
+import './about.css'
+import perfilImg from '../../../assets/foto.jpeg';
+
+import cv from '../../../assets/CV.pdf'
+
+
+export const About = () => {
+  return (
+    <section class="about" id="about">
+    <h2 class="heading">Sobre <span>Mi</span> <span className="animate scroll" style={{ '--i': 1 }}></span></h2>
+
+    <div class="about-img">
+    <img src={perfilImg}
+alt="imagen de perfil"></img>
+    <span class="circle-spin"></span>
+    <span className="animate scroll" style={{ '--i': 2 }}></span>
+    </div>
+
+    <div class="about-content">
+
+
+<h3>Frontend Developer<span className="animate scroll" style={{ '--i': 3 }}></span></h3>
+<p>Soy una programadora frontend con experiencia en liderar la creación e implementación de interfaces de usuario intuitivas, accesibles y atractivas. Mi enfoque primordial es aportar al desarrollo de aplicaciones web modernas y receptivas, garantizando una experiencia de usuario excepcional y una alta performance en distintos dispositivos. He trabajado en la optimización del rendimiento, la accesibilidad y la usabilidad, asegurando que los productos sean escalables y puedan adaptarse a entornos cambiantes.
+
+<p>
+Estoy siempre en busca de aprender y me apasiona estar al tanto de las últimas tendencias  en desarrollo frontend. Estoy convencida de que mi combinación de habilidades técnicas y pasión por la creación de experiencias de usuario excepcionales me permite contribuir significativamente a cualquier equipo de desarrollo web.
+
+
+
+</p>
+<a href={cv} download="CV_Zharick_Bautista.pdf" className="btn-download-cv">Descargar CV</a>
+
+<span className="animate scroll" style={{ '--i': 4 }}></span>
+</p>
+    </div>
+
+    
+    
+
+    
+
+    </section>
+  )
+}

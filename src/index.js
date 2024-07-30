@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import 'boxicons/css/boxicons.min.css';
+
+
 import reportWebVitals from './reportWebVitals';
+import { Header } from './components/Header/Header';
+import { Main } from './components/Main/Main';
+import { Footer } from './components/Footer/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+   <Header />
+   <Main />
+   <Footer />
   </React.StrictMode>
 );
 
