@@ -5,10 +5,10 @@ import './skills.css'
 export const Skills = () => {
   return (
    <section class="skills" id="skills">
-   <h2 class="heading"> Mis <span>Habilidades</span>        <span className="animate scroll" style={{ '--i': 1 }}></span></h2>
+   <h2 class="heading"> Mis <span>Habilidades</span>        </h2>
    <div class="skills-row">
    <div class="skills-column">
-   <h3 class="title">Habilidades de Codificacion<span className="animate scroll" style={{ '--i': 2 }}></span></h3>
+   <h3 class="title">Habilidades de Codificacion</h3>
 
    <div class="skills-box">
     <div class="skills-content">
@@ -32,14 +32,14 @@ export const Skills = () => {
             <div class="bar"><span></span></div>
         </div>
     </div>
-   <span className="animate scroll" style={{ '--i': 3 }}></span>
+   
    </div>
 
    </div>
 
 
    <div class="skills-column">
-   <h3 class="title">Habilidades Profesionales<span className="animate scroll" style={{ '--i': 5 }}></span></h3>
+   <h3 class="title">Habilidades Profesionales</h3>
 
    <div class="skills-box">
     <div class="skills-content">
@@ -63,7 +63,7 @@ export const Skills = () => {
             <div class="bar"><span></span></div>
         </div>
     </div>
-    <span className="animate scroll" style={{ '--i': 6 }}></span>
+    
    </div>
 
    </div>

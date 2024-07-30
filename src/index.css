@@ -40,8 +40,14 @@ body {
   height: 100%;
   background: var(--bg-color);
   z-index: 98;
+  opacity: 0;
+  transition: opacity 1s ease;
 }
 
+
+.animate.show {
+  opacity: 1;
+}
 .logo .animate,
 .navbar .animate,
 #menu-icon .animate,

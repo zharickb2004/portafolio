@@ -5,10 +5,10 @@ import './education.css'
 export const Education = () => {
   return (
     <section class="education" id="education">
-    <h2 class="heading">Mi <span>Trayectoria</span><span className="animate scroll" style={{ '--i': 1 }}></span></h2>
+    <h2 class="heading">Mi <span>Trayectoria</span></h2>
     <div class="education-row">
     <div class="education-column">
-      <h3 class="title">Educacion <span className="animate scroll" style={{ '--i': 2 }}></span></h3>
+      <h3 class="title">Educacion </h3>
 
       <div class="education-box">
         <div class="education-content">
@@ -26,11 +26,11 @@ export const Education = () => {
             <p>Adquirí conocimientos en bases de datos, desarrollo frontend y backend. Aunque me especializo en el frontend, mi formación integral me proporciona una sólida comprensión del ciclo completo de desarrollo de software , donde aplico mis conocimientos para crear interfaces intuitivas y funcionales.</p>
           </div>
         </div>
-        <span className="animate scroll" style={{ '--i': 3 }}></span>
+        
       </div>
     </div>
     <div class="education-column">
-      <h3 class="title">Experiencia        <span className="animate scroll" style={{ '--i': 5 }}></span></h3>
+      <h3 class="title">Experiencia        </h3>
 
       <div class="education-box">
         <div class="education-content">
@@ -49,7 +49,7 @@ export const Education = () => {
 </p>
           </div>
         </div>
-        <span className="animate scroll" style={{ '--i': 6 }}></span>
+        
       </div>
     </div>
 
