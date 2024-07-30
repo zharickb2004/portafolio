@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './header.css';
-import useScrollNavigation from '../hooks/useScrollNavigation';
+import useScrollNavigation from '../../hooks/useScrollNavigation.js';
 
 export const Header = () => {
   const { activeId } = useScrollNavigation();
