@@ -11,8 +11,8 @@ export const Main = () => {
 
             <Home />
             <About />
-            <Education />
             <Skills/>
+            <Education />
         </main>
     </>
   )

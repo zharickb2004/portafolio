@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'boxicons/css/boxicons.min.css';
+import 'swiper/css/bundle'; // Importa los estilos del bundle completo
+
 
 
 import reportWebVitals from './reportWebVitals';

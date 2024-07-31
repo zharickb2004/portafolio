@@ -46,10 +46,10 @@ export const Header = () => {
       </a>
       <div className="bx bx-menu" id="menu-icon"> <span className="animate" style={{ '--i': 2 }}></span></div>
       <nav className="navbar">
-        <a href="#home" className={activeId === 'home' ? 'active' : ''}>Inicio</a>
+        <a href="#home" className={activeId === 'home' ? 'active' : ''}  >Inicio</a>
         <a href="#about" className={activeId === 'about' ? 'active' : ''}>Información</a>
-        <a href="#education" className={activeId === 'education' ? 'active' : ''}>Educación</a>
         <a href="#skills" className={activeId === 'skills' ? 'active' : ''}>Habilidades</a>
+        <a href="#education" className={activeId === 'education' ? 'active' : ''}>Educación</a>
         <span className="animate" style={{ '--i': 2 }}></span>
       </nav>
     </header>

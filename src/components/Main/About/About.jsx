@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import perfilImg from '../../../assets/foto.jpeg';
+import perfilImgAvatar from '../../../assets/avatar1.webp';
 
 import cv from '../../../assets/CV.pdf'
 
@@ -9,11 +9,11 @@ export const About = () => {
   
   return (
     <section class="about" id="about">
-    <h2 class="heading">Sobre <span>Mi</span></h2>
+    <h2 class="heading">Sobre <span>Mí</span></h2>
 
     <div class="about-img">
-    <img src={perfilImg}
-alt="imagen de perfil"></img>
+    <img src={perfilImgAvatar} alt="imagen de perfil" />
+
     <span class="circle-spin"></span>
   
     </div>
@@ -21,7 +21,7 @@ alt="imagen de perfil"></img>
     <div class="about-content">
 
 
-<h3>Frontend Develope</h3>
+<h3>Frontend Developer</h3>
 <p>Soy una programadora frontend con experiencia en liderar la creación e implementación de interfaces de usuario intuitivas, accesibles y atractivas. Mi enfoque primordial es aportar al desarrollo de aplicaciones web modernas y receptivas, garantizando una experiencia de usuario excepcional y una alta performance en distintos dispositivos. He trabajado en la optimización del rendimiento, la accesibilidad y la usabilidad, asegurando que los productos sean escalables y puedan adaptarse a entornos cambiantes.
 
 <p>
@@ -30,7 +30,7 @@ Estoy siempre en busca de aprender y me apasiona estar al tanto de las últimas 
 
 
 </p>
-<a href={cv} download="CV_Zharick_Bautista.pdf" className="btn-download-cv">Descargar CV</a>
+<a href={cv} target="_blank" rel="noopener noreferrer" className="btn-download-cv">Abrir CV</a>
 
 </p>
     </div>

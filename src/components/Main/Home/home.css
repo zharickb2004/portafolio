@@ -218,8 +218,11 @@ section{
     }
   
     .home-content h1 {
-      font-size: 2.9rem;
+    
       text-align: start; /* Ajusta el tamaño de la fuente */
+    }
+    .home-content h1 span{
+      padding-left: 0.5rem;
     }
   
     .home-content .text-animate h3 {
@@ -276,12 +279,15 @@ position: relative;
     }
   
     .home-content h1 {
-      font-size: 2.9rem;
+      font-size: 2.5rem;
       
       display: flex;
       padding-left: 3rem; /* Ajusta el tamaño de la fuente */
     }
   
+    .home-content h1 span{
+      padding-left: 0.5rem;
+    }
     .home-content .text-animate h3 {
       font-size: 2.7rem;
       text-align: center;
