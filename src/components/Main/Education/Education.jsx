@@ -35,7 +35,7 @@ export const Education = () => {
       <div class="education-box">
         <div class="education-content">
           <div class="content">
-            <div class="year"><i class='bx bxs-calendar' ></i>2022 - 2023</div>
+            <div class="year"><i class='bx bxs-calendar' ></i>2023 - 2023</div>
             <h3>Desarrollador web en TicPlat SAS</h3>
             <p>Me especialicé en la gestión de interfaces complejas, utilizando tecnologías como React para optimizar la visualización de grandes volúmenes de datos. Implementé técnicas avanzadas para mejorar el rendimiento de la interfaz, y coordiné con el equipo de QA para garantizar lanzamientos sin errores.
 </p>
@@ -43,8 +43,8 @@ export const Education = () => {
         </div>
         <div class="education-content">
           <div class="content">
-            <div class="year"><i class='bx bxs-calendar' ></i>2023 - 2023</div>
-            <h3>Desarrollador Red de Servicios SA</h3>
+            <div class="year"><i class='bx bxs-calendar' ></i>2024 - 2024</div>
+            <h3>Desarrollador Freelance Vank</h3>
             <p>Trabajé con diseñadores y desarrolladores backend para asegurar la integración efectiva entre frontend y backend en nuestras aplicaciones web. Además, lideré al equipo en la mejora continua del sistema de gestión de órdenes, enfocándome en su  adaptabilidad a las tendencias del mercado. 
 </p>
           </div>

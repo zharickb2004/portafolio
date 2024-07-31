@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import perfilImgAvatar from '../../../assets/avatar1.webp';
+import perfilImg from '../../../assets/foto.jpeg';
 
 import cv from '../../../assets/CV.pdf'
 
@@ -12,8 +12,8 @@ export const About = () => {
     <h2 class="heading">Sobre <span>Mí</span></h2>
 
     <div class="about-img">
-    <img src={perfilImgAvatar} alt="imagen de perfil" />
-
+    <img src={perfilImg}
+alt="imagen de perfil"></img>
     <span class="circle-spin"></span>
   
     </div>
