@@ -5,7 +5,7 @@ import './skills.css';
 
 const skillsData = [
   { icon: 'bxl-react', name: 'React', example: 'Frontend Framework' },
-  { icon: 'bxl-bootstrap', name: 'Bootstrap', example: 'CSS Framework' },
+  { icon: 'bxl-nodejs', name: 'Node.js', example: 'JavaScript Runtime' },
   { icon: 'bxl-tailwind-css', name: 'Tailwind CSS', example: 'Utility-First CSS Framework' },
   { icon: 'bxl-javascript', name: 'JavaScript', example: 'Programming Language' },
   { icon: 'bxl-figma', name: 'Figma', example: 'UI/UX Design Tool' },
